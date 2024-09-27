@@ -3,13 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="apple-itunes-app" content="app-id=6677058414">
-  <title>Smart Banner</title>
+  <title>Custom Banner</title>
   <style>
-    body { margin: 0; }
+    .banner {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      z-index: 1000;
+    }
+    .banner a {
+      color: #fff;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-    <p>Smart Vanner 1.1</p>
+  <div class="banner">
+    Download our app on the App Store: <a href="https://apps.apple.com/app/id6677058414">Get the App</a>
+  </div>
 </body>
 </html>
